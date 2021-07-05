@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.title-container {
+  display: flex;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0 5px;
+}
+
+.audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
